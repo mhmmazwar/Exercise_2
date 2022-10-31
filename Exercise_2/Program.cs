@@ -57,7 +57,7 @@ namespace Exercise_2
 
                 
                 int mid = (lowerbound + upperbound) / 2;
-                int ctr = 1;
+                int ctr = 1; 
 
               
                 while ((item != arr[mid]) && (lowerbound <= upperbound))
