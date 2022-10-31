@@ -144,7 +144,7 @@ namespace Exercise_2
                         myList.input();
                         myList.BinarySearch();
                         break;
-                    case 3:
+                    case 3: 
 
                         Console.WriteLine("exit.");
                         break;
