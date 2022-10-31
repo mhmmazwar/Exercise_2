@@ -59,7 +59,7 @@ namespace Exercise_2
                 int mid = (lowerbound + upperbound) / 2;
                 int ctr = 1;
 
-                //loop to search for the elements in the array
+              
                 while ((item != arr[mid]) && (lowerbound <= upperbound))
                 {
                     if (item > arr[mid])
@@ -85,11 +85,11 @@ namespace Exercise_2
         public void LinearSearch()
         {
             char ch;
-            //Search for number of comparison
+            
             int ctr;
             do
             {
-                //Accept the number to be searched
+                
                 Console.Write("\nEnter the element you want to search: ");
                 int item = Convert.ToInt32(Console.ReadLine());
 
