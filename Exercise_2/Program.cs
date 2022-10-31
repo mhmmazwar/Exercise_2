@@ -55,7 +55,7 @@ namespace Exercise_2
                 int lowerbound = 0;
                 int upperbound = n - 1;
 
-                //Obtain the index of the elements
+                
                 int mid = (lowerbound + upperbound) / 2;
                 int ctr = 1;
 
