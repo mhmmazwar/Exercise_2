@@ -65,7 +65,7 @@ namespace Exercise_2
                     if (item > arr[mid])
                         lowerbound = mid + 1;
                     else
-                        upperbound = mid - 1;
+                        upperbound = mid - 1; 
 
                     mid = (lowerbound + upperbound) / 2;
                     ctr++;
